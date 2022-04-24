@@ -1,0 +1,30 @@
+## To do list manager with notes ##
+
+Node.js server listening for changes
+JSON file for store data
+
+new object with note
+    * add title
+    * add new note
+    * edit note
+    * delete note
+    * check if done
+
+function #1: add button creates new note
+    1. open new window to type new note
+        - type new title - input
+        - inputs for typed text saves in JSON
+        - add button
+            @ add button provides new note
+
+function #2: existing note can be modified:
+    - read existing notes if they are
+        - change single line of text
+
+function #3: existing note tile expose few lines of note
+    - clicked note expose bigger version of tile
+
+
+!pagination!
+
+    

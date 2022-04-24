@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+html {
+  height: 100%;
+}
+
+body {
+  background: radial-gradient(112.94% 220.28% at 111.39% -12.94%, rgba(0, 247, 217, 0.12) 0%, rgba(0, 96, 185, 0.280047) 15.1%, rgba(0, 104, 200, 0) 24.99%, #240041 25%, rgba(0, 77, 148, 0.376742) 40.1%, rgba(0, 77, 148, 0.07) 40.11%, rgba(0, 51, 98, 0.62) 54.69%, rgba(0, 51, 98, 0.506716) 60.41%, rgba(0, 27, 51, 0.626667) 79.16%, rgba(0, 27, 51, 0.62) 79.17%, rgba(0, 0, 0, 0.76) 100%);
+  font-family: 'Roboto Condensed'
+}
+
+.content {
+  width: 90%;
+  height: 90vh;
+  margin: auto;
+  margin-top: 3%;
+
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+  background-blend-mode: luminosity;
+  backdrop-filter: blur(50px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 17px;
+}
+
+.logo {
+  width: 14%;
+  height: 8%;
+  padding: 20px;
+  display: flex;
+  align-items: baseline;
+}
+
+.grad {
+  background: radial-gradient(100% 461.93% at 100% 100%, rgba(36, 0, 65, 0.71) 0%, rgba(0, 0, 0, 0) 100%);
+border-radius: 6px;
+  height: 100%;
+  text-align: right;
+  color: aliceblue;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.grad span {
+  margin: 2%;
+}
+
+.right-text {
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 1%;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+}
+
+.title img {
+  position: absolute;
+  top: 6vh;
+}
+
+.list-container {
+  width: 70%;
+  height: 60vh;
+  padding-top: 4%;
+  /* background-color: rgba(112, 81, 81, 0.342); */
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-flow: row wrap;
+  justify-content: flex-start center;
+  gap: 4% 4%;
+}
+
+.list-element {
+  display: flex;
+  width: 30ex;
+  height: 30%;
+  background-color: #F8F9DB;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-top-left-radius: 17px;
+  border-bottom-left-radius: 17px;
+  flex-flow: column;
+  font-size: 7pt;
+  text-overflow: unset;
+}
+
+.list-element h3 {
+  margin: 2% auto;
+}
+
+.list-element ol {
+  position: absolute;
+  margin-top: 5vh;
+  margin-right: 1.5vw;
+}
+
+.list-element .list-container-stripe {
+  position: absolute;
+  right: 0;
+  width: 3.5ex;
+  height: 100%;
+  background: #616161;
+}
+
+.list-container-stripe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-button {
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plus-sign {
+  display: flex;
+  width: 8vh;
+  height: 8vh;
+  background: rgba(255, 255, 255, 0.19);
+  background-blend-mode: luminosity;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(60px);
+  border-radius: 6px;
+  justify-content: center;
+}
+
+.close-button {
+  border-radius: 200%;
+  width: 80%;
+  height: 10%;
+  background: #584A4A;
+  margin-top: 0.4vh;
+}
+
+.add-todo {
+  position: absolute;
+  right: 10px;
+  top: 45px;
+  width: 4vh;
+  height: 4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.19);
+  background-blend-mode: luminosity;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(60px);
+  border-radius: 6px;
+}
+
+.add-todo img {
+  width: 2vh;
+  height: 2vh;
+}
+
+.black-canvas {
+
+  width: 100%;
+  height: 90vh;
+  background-color: hsla(0, 0%, 0%, 0);
+
+  backdrop-filter: blur(3px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 17px;
+  z-index: 1;
+}
+
+.black-canvas-background {
+  background: linear-gradient(0deg, rgb(36, 18, 56), rgba(0, 0, 0, 0.911));
+  /* backdrop-filter: blur(5px); */
+  width: 40%;
+  height: 90vh;
+  margin: auto;
+  right: 0;
+  top: 0;
+  position: absolute;
+  border-radius: 17px;
+}
+
+.todo-list {
+  list-style-image: linear-gradient(#F8F9DB,#F8F9DB);
+  
+}
+
+.todo-input {
+  background: rgba(54, 54, 54, 0.288);
+  
+  border: none;
+  outline: none;
+  color: white;
+  caret-color:  rgb(162, 102, 218);
+}
+
+.todo-input :focus {
+  background-color: red;
+}
+
+
+
+h2 {
+  margin-left: 8%;
+  color: white;
+}
